@@ -1,0 +1,5 @@
+jieba==0.42.1
+pyahocorasick==1.4.0
+scikit-learn==0.24.2
+torch==1.8.1
+transformers==4.6.0
