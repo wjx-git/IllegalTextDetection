@@ -17,7 +17,7 @@ from train_roberta import predict
 config = SystemConfig()
 f2s = TradToSimple(config.trad2simple_file)
 illegal_match = AhocorasickNer()
-illegal_match.add_keywords(config.illegal_dicts_file)
+illegal_match.add_keywords_by_file(config.illegal_dicts_file)
 suspected_illegal_match = AhocorasickNer()
 suspected_illegal_match.add_keywords_by_file(config.suspected_illegal_dicts_file)
 
